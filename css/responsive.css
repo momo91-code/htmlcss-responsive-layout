@@ -1,1 +1,135 @@
 /* Soluzione qui */
+@media screen and (min-width:575px) and (max-width:768px){
+    .presentation img{
+        float:inline-start;
+        margin:10px;
+    }
+
+ 
+    .fa-facebook{
+        padding:10px;
+        font-size: 30px;
+    }
+
+
+    .fa-twitter{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .fa-pinterest{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .fa-youtube{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .fa-instagram{
+        padding:10px;
+        font-size: 30px;
+    }
+
+}
+
+
+@media screen and (min-width:770px) and (max-width:990px){
+    #topbar{
+        align-items: center;
+        display:flex;
+        justify-content: flex-start;
+    }
+
+    .container{
+        padding-top: 100px;
+
+    }
+
+    .recipe-origin{
+        display:inline-flex;
+
+    }
+
+
+    #logo{
+        font-size: 5em;
+    }
+
+    .quick-notes ul{
+        column-count: 2;
+        
+    }
+
+    .fa-facebook{
+        padding:10px;
+        font-size: 30px;
+    }
+
+
+    .fa-twitter{
+    padding:10px;
+    font-size: 30px;
+    }
+
+    .fa-pinterest{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .fa-youtube{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .fa-instagram{
+        padding:10px;
+        font-size: 30px;
+    }
+
+    .ads{
+        display:flex;
+    }
+
+    .presentation img{
+        float:inline-start;
+        margin-right: 10px;
+    }
+}
+
+@media screen and (min-width:991px) {
+    #logo{
+        font-size: 6em;
+    }
+
+    #topbar{
+        height:90px;
+    }
+
+    .recipe-card{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .recipe-video{
+        display:flex;
+        object-fit: contain;
+        width: 70%;
+    }
+
+    .quick-notes ul{
+        column-count: 1;
+    }
+
+    .social-networks .label{
+        display:flex;
+    }
+
+    footer{
+        display:flex;
+        justify-content:space-between;
+        flex-direction: row;
+    }
+}
